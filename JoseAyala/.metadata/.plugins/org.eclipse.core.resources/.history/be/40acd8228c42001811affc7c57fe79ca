@@ -1,0 +1,29 @@
+package ejercicio_012;
+
+import java.util.Scanner;
+
+public class Program {
+
+	static Scanner user=new Scanner(System.in);
+	
+	public static void main(String[] args) {
+		
+			int numeroPrimo;
+			int numeroNoPrimo;
+			System.out.println("ingrese un numero:");
+			numeroPrimo=user.nextInt();
+			if(numeroPrimo%2!=0)
+			{
+				System.out.println("es primo");
+				
+			}
+			else
+			{
+				System.out.println("no es primo");
+			}
+			
+			
+		
+	}
+
+}

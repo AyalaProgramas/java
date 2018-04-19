@@ -1,0 +1,58 @@
+package bucles_11;
+import java.util.Scanner;
+public class Program {
+	static Scanner user=new Scanner(System.in);
+	public static void main(String[] args) {
+		int i;
+		int j;
+		int numerotabal;
+		
+//		for(i=0;i<1000;i++)
+//		{
+//			System.out.println(i);
+//		}
+//		
+//		while(j<2000)
+//		{
+//			System.out.println(j);
+//			j++;
+//		}
+		System.out.println("ingrese un numero para multiplicar");
+		numerotabal=user.nextInt();
+		j=0;
+		i=0;	
+		while(j<11)
+		{
+			System.out.println(numerotabal+"*"+i+"="+(numerotabal*i));
+			j++;
+			i++;
+		}
+		
+		j=0;
+		i=1;
+		int k=100;
+		int gauss=0;
+		int total=0;
+		while(i<55)
+		{
+			System.out.println(i+k);
+			
+		
+			j++;
+			i++;
+			k--;
+		}
+		
+		i=0;
+		while(i<10)
+		{
+			System.out.println("ingrese un numero:");
+			gauss=user.nextInt();
+			total=total+gauss;
+			i++;
+			
+		}
+		System.out.println(total);
+	}
+
+}
